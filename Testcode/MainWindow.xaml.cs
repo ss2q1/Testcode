@@ -24,5 +24,15 @@ namespace Testcode
         {
             InitializeComponent();
         }
+
+        private void ButtonRed_Click(object sender, RoutedEventArgs e)
+        {
+            Ball.Fill = Brushes.Red;
+        }
+
+        private void ButtonBlue_Click(object sender, RoutedEventArgs e)
+        {
+            Ball.Fill = Brushes.Blue;
+        }
     }
 }
